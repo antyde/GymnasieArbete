@@ -1,3 +1,8 @@
+body
+{
+margin: 0;
+}
+
 #gridContainer {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -75,13 +80,13 @@ div#header
 
 a:hover
 {
-  background-color:  rgb(240, 185, 3);
+  background-color:  #e89670;
   color: white;
 }
 
 a:active
 {
-  background-color:  rgb(240, 185, 3);
+  background-color: #ebefe9;
   color: white;
 }
 
@@ -102,11 +107,11 @@ footer
 	padding-bottom: 1em;
 	display: grid;
 	grid-template-columns:[start]1fr [first]1fr [second]1fr [third]1fr [fourth]1fr [fifth]1fr[last]; 
-	background-color: #FFD300;
+	background-color: #1b3643;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-family: "Times New Roman",  Times, serif;
-	border-top: 1em solid rgb(93, 160, 59);
+	border-top: 1em solid #e89670;
 }
 	
 .FooterLogo 
@@ -169,7 +174,7 @@ footer
 	
 	.contact-links{
 		color: white;
-		padding-left: 1vw;
+		padding-left: 2vw;
 	}
 	
 	.logolink{
