@@ -9,3 +9,87 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+   
+header
+{
+	background-color: #FFD300;
+	
+}
+
+div#header
+{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 0.5fr 0.2fr;
+	border-bottom: 1em solid rgb(93, 160, 59);
+}
+
+.HomeShortcut
+{
+	grid-row-start:1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.NavigationBar
+{
+	grid-row: 2;
+	grid-column-start: 2;
+	grid-column-end: 6;
+    padding-bottom: 0.5em;
+    font-size: 1.7em;
+	margin-right: 2em;}
+
+.Logoimage
+{
+	height: 12em;
+	width: 12em;
+	padding-left: 2em ;
+
+}
+
+.Title
+{
+	grid-row-start:1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	color:white;
+	font-family: 'Cinzel', serif;
+	font-size: 8em;
+}
+
+.NavigationBar a
+{
+	float:left;
+  	color:white;
+  	padding-right:2em;
+  	padding-left: 1em;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 1em;
+}
+
+a:hover
+{
+  background-color:  rgb(240, 185, 3);
+  color: white;
+}
+
+a:active
+{
+  background-color:  rgb(240, 185, 3);
+  color: white;
+}
+
+.search
+{
+	grid-row-start:2;
+	grid-row-end: 3;
+	grid-column-start: 6;
+	grid-column-end: 6;
+	padding-left: 6em;
+	
+}
