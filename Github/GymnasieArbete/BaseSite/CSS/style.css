@@ -13,7 +13,7 @@
    
 header
 {
-	background-color: #FFD300;
+	background-color: #1B3643;
 	
 }
 
@@ -22,7 +22,7 @@ div#header
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: 0.5fr 0.2fr;
-	border-bottom: 1em solid rgb(93, 160, 59);
+	border-bottom: 1em solid #e89670;
 }
 
 .HomeShortcut
