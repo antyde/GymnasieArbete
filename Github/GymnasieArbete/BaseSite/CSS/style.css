@@ -13,7 +13,7 @@
    
 header
 {
-	background-color: #FFD300;
+	background-color: #1b3643;
 	
 }
 
@@ -22,7 +22,7 @@ div#header
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: 0.5fr 0.2fr;
-	border-bottom: 1em solid rgb(93, 160, 59);
+	border-bottom: 1em solid #e89670 ;
 }
 
 .HomeShortcut
@@ -36,11 +36,14 @@ div#header
 .NavigationBar
 {
 	grid-row: 2;
-	grid-column-start: 2;
+	grid-column-start: 1;
 	grid-column-end: 6;
     padding-bottom: 0.5em;
     font-size: 1.7em;
-	margin-right: 2em;}
+
+	background-color: #e89670;
+	padding-left: 9em;
+}
 
 .Logoimage
 {
@@ -91,5 +94,6 @@ a:active
 	grid-column-start: 6;
 	grid-column-end: 6;
 	padding-left: 6em;
+	background-color: #e89670;
 	
 }
