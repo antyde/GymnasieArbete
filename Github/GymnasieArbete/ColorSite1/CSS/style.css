@@ -1,0 +1,12 @@
+#gridContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  
+  #pictureContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
