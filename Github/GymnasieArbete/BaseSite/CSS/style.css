@@ -19,7 +19,7 @@ margin: 0;
    
 header
 {
-	background-color: #1B3643;
+	background-color: #1b3643;
 	
 }
 
@@ -42,11 +42,14 @@ div#header
 .NavigationBar
 {
 	grid-row: 2;
-	grid-column-start: 2;
+	grid-column-start: 1;
 	grid-column-end: 6;
     padding-bottom: 0.5em;
     font-size: 1.7em;
-	margin-right: 2em;}
+
+	background-color: #e89670;
+	padding-left: 9em;
+}
 
 .Logoimage
 {
@@ -97,6 +100,7 @@ a:active
 	grid-column-start: 6;
 	grid-column-end: 6;
 	padding-left: 6em;
+	background-color: #e89670;
 	
 }
 
