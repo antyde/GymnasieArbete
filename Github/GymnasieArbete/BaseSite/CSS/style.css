@@ -2,9 +2,9 @@ body {
   margin: 0;
 }
 
-#gridContainer {
+#container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 390px auto auto auto;
   grid-template-columns: 1fr;
 }
 
@@ -12,6 +12,29 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictureContainer
+{
+  display: grid;
+  grid-template-rows: 370px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.picture 
+{
+  grid-row: 1;
+  margin-top: 0.5em;
+  padding-left: 30%;
+
+}
+
+.pictureText
+{
+  text-align: center;
+  border: 1px solid black;
 }
 
 /* header */
