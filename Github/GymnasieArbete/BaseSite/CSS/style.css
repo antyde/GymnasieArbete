@@ -90,6 +90,22 @@ a:active {
   background-color: #e89670;
 }
 
+
+
+#textArea{
+	padding-left: 30%;
+	padding-right: 32%;
+}
+
+p
+{
+	border: 1px solid black;
+	padding: 1em;
+}
+
+
+
+
 /* Footer */
 
 footer {
