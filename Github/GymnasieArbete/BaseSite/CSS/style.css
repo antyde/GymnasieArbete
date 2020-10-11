@@ -20,9 +20,6 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
-
 .picture {
   grid-row: 1;
   margin-top: 0.5em;
@@ -51,13 +48,15 @@ p {
 #headerAdd{
   grid-row: 2;
   grid-column: 1/4;
-  padding-bottom: 2em;
+  padding-bottom: 2em; 
+  background-color: #bb0f2c;
+  
 }
 
 #textAreaAdd{
   grid-row: 4;
   grid-column: 2/3;
-
+  align-content: center;
 }
 
 /* header */
