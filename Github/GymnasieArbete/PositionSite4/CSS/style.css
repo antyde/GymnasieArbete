@@ -21,7 +21,10 @@ body {
   }
   
   
-  
+  #adPic{
+    width: 214px;
+    height: 335px;
+  }
   
   .picture {
     grid-row: 1;

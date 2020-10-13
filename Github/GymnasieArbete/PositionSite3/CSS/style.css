@@ -48,16 +48,18 @@ p {
   padding: 1em;
 }
 
-#headerAdd{
+#headerAd{
   grid-row: 5;
-  grid-column: 1/4;
-  padding-bottom: 2em;
+  grid-column: 2/3;
+  background-color: #BB0F2C;
+  margin: 1em;
 }
 
-#textAreaAdd{
-  grid-row: 3;
-  grid-column: 2/3;
 
+#ad {
+  height: 200px;
+  width: 400px;
+  padding-left: 35%;
 }
 
 /* header */
