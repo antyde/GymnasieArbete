@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #ebefe9;
+  background-color: #bb0f2c;
 }
 
 footer {
@@ -25,6 +25,7 @@ footer {
   grid-row: 1;
   margin-top: 0.5em;
   margin-left: 30%;
+  padding-top: 0;
   padding-bottom: 0;
   border: 1px solid black;
 }
@@ -32,7 +33,6 @@ footer {
 #textArea {
   grid-row: 5/6;
   grid-column: 2 / 3;
-
 }
 
 .pictureText {
@@ -46,22 +46,14 @@ footer {
 p {
   border: 1px solid black;
   padding: 1em;
+  background-color: #ebefe9;
 }
 
-#headerAdd{
-  grid-row: 2;
-  grid-column: 1/4;
-  padding-bottom: 2em; 
-  background-color: #bb0f2c;
-  
-}
-
-#textAreaAd{
+#textAreaAd {
   grid-row: 4;
   grid-column: 2/3;
   background-color: #e89670;
   margin-top: 1em;
-  
 }
 
 #ad {
@@ -74,7 +66,7 @@ p {
 
 header {
   grid-column: 1 / 4;
-  background-color: #1b3643;
+  background-color: #e89670;
 }
 
 div#header {
@@ -98,7 +90,7 @@ div#header {
   padding-bottom: 0.3em;
   font-size: 1.7em;
 
-  background-color: #e89670;
+  background-color: #1b3643;
   padding-left: 9em;
 }
 
@@ -130,7 +122,7 @@ div#header {
 }
 
 a:hover {
-  background-color: #e89670;
+  background-color: #1b3643;
   color: white;
 }
 
@@ -145,7 +137,7 @@ a:active {
   grid-column-start: 6;
   grid-column-end: 6;
   padding-left: 6em;
-  background-color: #e89670;
+  background-color: #1b3643;
 }
 
 /* Footer */
