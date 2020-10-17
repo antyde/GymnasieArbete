@@ -56,10 +56,18 @@ p {
   
 }
 
-#textAreaAdd{
+#textAreaAd{
   grid-row: 4;
   grid-column: 2/3;
-  align-content: center;
+  background-color: #BB0F2C;
+  margin-top: 1em;
+  
+}
+
+#ad {
+  height: 200px;
+  width: 400px;
+  padding-left: 35%;
 }
 
 /* header */
@@ -73,7 +81,6 @@ div#header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 0.5fr 0.2fr;
-  border-bottom: 1em solid #e89670;
 }
 
 .HomeShortcut {
@@ -84,11 +91,11 @@ div#header {
 }
 
 .NavigationBar {
-  padding-top: 0.5em;
+  padding-top: 0.3em;
   grid-row: 2;
   grid-column-start: 1;
   grid-column-end: 6;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.3em;
   font-size: 1.7em;
 
   background-color: #e89670;

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #bb0f2c;
 }
 
 footer {
@@ -20,13 +21,11 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
-
 .picture {
   grid-row: 1;
   margin-top: 0.5em;
   margin-left: 30%;
+  padding-top: 0;
   padding-bottom: 0;
   border: 1px solid black;
 }
@@ -41,37 +40,39 @@ footer {
   border: 1px solid black;
   margin-left: 30%;
   width: 214px;
+  background-color: #989597;
 }
 
 p {
   border: 1px solid black;
   padding: 1em;
+  background-color: #ebefe9;
 }
 
-#headerAdd{
-  grid-row: 2;
-  grid-column: 1/4;
-  padding-bottom: 2em;
-}
-
-#textAreaAdd{
+#textAreaAd {
   grid-row: 4;
   grid-column: 2/3;
+  background-color: #e89670;
+  margin-top: 1em;
+}
 
+#ad {
+  height: 200px;
+  width: 400px;
+  padding-left: 35%;
 }
 
 /* header */
 
 header {
   grid-column: 1 / 4;
-  background-color: #1b3643;
+  background-color: #e89670;
 }
 
 div#header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 0.5fr 0.2fr;
-  border-bottom: 1em solid #e89670;
 }
 
 .HomeShortcut {
@@ -82,14 +83,14 @@ div#header {
 }
 
 .NavigationBar {
-  padding-top: 0.5em;
+  padding-top: 0.3em;
   grid-row: 2;
   grid-column-start: 1;
   grid-column-end: 6;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.3em;
   font-size: 1.7em;
 
-  background-color: #e89670;
+  background-color: #1b3643;
   padding-left: 9em;
 }
 
@@ -121,7 +122,7 @@ div#header {
 }
 
 a:hover {
-  background-color: #e89670;
+  background-color: #1b3643;
   color: white;
 }
 
@@ -136,7 +137,7 @@ a:active {
   grid-column-start: 6;
   grid-column-end: 6;
   padding-left: 6em;
-  background-color: #e89670;
+  background-color: #1b3643;
 }
 
 /* Footer */
